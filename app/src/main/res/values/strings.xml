@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Romanov_01_03</string>
+
+    <string name="Starts">Начать</string>
+    <string name="GF">Геометрические фигуры</string>
+    <string name="Calc">Выполнить расчет</string>
+    <string name="reg">Регистрация</string>
+    <string name="login">Логин</string>
+    <string name="pass">Пароль</string>
+    <string name="calc">Расчитать</string>
+    <string name="viborF">Выберите фигуру</string>
+    <string name="DAta">Введите данные для расчета</string>
+
+
+</resources>
