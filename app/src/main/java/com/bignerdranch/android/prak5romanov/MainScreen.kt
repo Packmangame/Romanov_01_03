@@ -93,6 +93,8 @@ class MainScreen : AppCompatActivity() {
                     }
 
                     editor.apply()
+                    startActivity(Intent(this, ResultScreen::class.java))
+
                 }
                 else { Snackbar.make(view,"Ошибка: значение '0' недопустимо. Пожалуйста, введите другое число.", Snackbar.LENGTH_LONG).show()}
             } else {
@@ -108,6 +110,8 @@ class MainScreen : AppCompatActivity() {
                         editor.putString("figure", "Треугольник")
                         editor.putString("result", "$res")
                         editor.apply()
+                        startActivity(Intent(this, ResultScreen::class.java))
+
                     }
                     else { Snackbar.make(view,"Ошибка: треугольника с такими сторонами не сущестует.", Snackbar.LENGTH_LONG).show()}
                 }

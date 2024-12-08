@@ -4,6 +4,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultScreen">
+    tools:context=".ResultScreen"
+    android:background="@color/blue">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="373dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/GF"
+        android:textAlignment="center"
+
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="184dp"
+        android:layout_height="165dp"
+        android:src="@drawable/figure"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <TextView
+        android:id="@+id/namefig"
+        android:layout_width="331dp"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textSize="18dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:hint="Выбранная вами фигру"
+        android:paddingTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="331dp"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:textColor="@color/black"
+        android:hint="Результат"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textSize="18dp"
+        android:paddingTop="15dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enter"
+        android:layout_width="331dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif"
+        android:onClick="onRegistrationScreen"
+        android:text="@string/Exit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,7 @@
     <string name="calc">Расчитать</string>
     <string name="viborF">Выберите фигуру</string>
     <string name="DAta">Введите данные для расчета</string>
+    <string name="Exit">Выход</string>
 
 
 </resources>

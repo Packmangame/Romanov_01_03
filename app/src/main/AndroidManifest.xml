@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prak5Romanov"
         tools:targetApi="31">
-
+        <activity
+            android:name=".ResultScreen"
+            android:exported="false" />
         <activity
             android:name=".MainScreen"
             android:exported="false" />
@@ -25,14 +27,11 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.Prak5Romanov">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />-->
     </application>
 
 </manifest>
