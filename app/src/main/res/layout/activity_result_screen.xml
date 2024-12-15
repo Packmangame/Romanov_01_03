@@ -46,6 +46,7 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:hint="Выбранная вами фигру"
+        android:textColorHint="@color/gray"
         android:paddingTop="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,6 +61,8 @@
         android:background="@drawable/button"
         android:textColor="@color/black"
         android:hint="Результат"
+        android:textColorHint="@color/gray"
+
         android:inputType="number"
         android:paddingLeft="20dp"
         android:textSize="18dp"

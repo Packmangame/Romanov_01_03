@@ -120,7 +120,6 @@ class MainScreen : AppCompatActivity() {
                 showError("Вы не ввели данные для расчёта")
             }
         }
-        Toast.makeText(this,"Результат вычисления: $res", Toast.LENGTH_LONG).show()
     }
 
     private fun showError(message: String) {
